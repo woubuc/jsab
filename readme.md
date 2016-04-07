@@ -73,7 +73,7 @@ In your HTML page, remove the `ga('send', 'pageview')` from your Google Analytic
 | dimension | **yes**  | Google Analytics dimension index |
 | default   | **yes**  | Default value |
 | versions  | **yes**  | Array containing different versions of the element |
-| id        | no       | Default: `''`. A unique ID (number or string) to identify this A/B test |
+| id        | no       | A unique ID (number or string) to identify this A/B test |
 | send      | no       | Default: `true`. Set this to false to prevent jsAB from sending the pageview |
 
 

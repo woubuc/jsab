@@ -77,5 +77,8 @@ In your HTML page, remove the `ga('send', 'pageview')` from your Google Analytic
 | send      | no       | Default: `true`. Set this to false to prevent jsAB from sending the pageview |
 
 
+### Development mode
+While you're working on your site, you may want to view the different versions. Add `#!dev` to your page to disable the jsAB cookie.
+
 ## Contributing
 I welcome PR's, bug reports, suggestions and all that.

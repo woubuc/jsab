@@ -1,6 +1,6 @@
 ###
-	jsAB v0.1.0 by @woubuc | github.com/woubuc/jsAB
-	Inspired by easyAB by @_srom | srom.github.io/easyAB
+jsAB v0.1.0 by woubuc | github.com/woubuc/jsAB
+Inspired by easyAB by _srom | srom.github.io/easyAB
 ###
 
 (($) ->

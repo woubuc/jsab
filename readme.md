@@ -15,6 +15,8 @@ To use jsAB on your site, all you need to do is add the script in your page, and
 - jsab.js
 - Google Analytics _(only analytics.js is supported, not the old ga.js)_
 
+Find the latest version in [build/jsab.js](https://raw.githubusercontent.com/woubuc/jsab/master/build/jsab.js)
+
 ### Sample code
 Because a code example is the best way to see how to use it.
 

@@ -17,7 +17,7 @@ Inspired by easyAB by _srom | srom.github.io/easyAB
 		expires = '; expires=' + date.toGMTString()
 
 		# Create cookie 🍪
-		document.cookie = [_cookieName, '=', value, expires, '; path=/'].join('')
+		document.cookie = _cookieName + '=' + value + expires + '; path=/'
 
 
 	# Get value from jsAB cookie

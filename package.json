@@ -1,0 +1,29 @@
+{
+  "name": "jsAB",
+  "version": "0.1.0",
+  "description": "Simple A/B testing with jQuery and Google Analytics",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node node_modules/gulp/bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woubuc/jsab.git"
+  },
+  "keywords": [
+    "A/B testing"
+  ],
+  "author": "Wouter Buckens <wou.buc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woubuc/jsab/issues"
+  },
+  "homepage": "https://github.com/woubuc/jsab#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffee": "^2.3.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-serve": "^1.4.0"
+  }
+}

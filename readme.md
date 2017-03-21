@@ -1,7 +1,7 @@
 # jsAB
 Simple A/B testing with jQuery and Google Analytics
 
-Latest version (minified): [build/jsab.min.js](https://raw.githubusercontent.com/woubuc/jsab/master/build/jsab.min.js)
+Latest version (minified): [dist/jsab.min.js](https://raw.githubusercontent.com/woubuc/jsab/master/dist/jsab.min.js)
 
 ## What it does
 jsAB is a simple client-side piece of Javascript that let you do A/B tests on websites without needing a back-end. All data is sent to Google Analytics as custom dimensions, for you to analyse as you like.

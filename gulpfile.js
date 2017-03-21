@@ -13,15 +13,15 @@ function compileCoffee() {
 	return gulp.src('src/jsab.coffee')
 		.pipe(plumber())
 		.pipe(coffee({bare: true}))
-		.pipe(gulp.dest('./build'));
+		.pipe(gulp.dest('./dist'));
 }
 
 function minifyJs() {
-	return gulp.src('build/jsab.js')
+	return gulp.src('dist/jsab.js')
 		.pipe(plumber())
 		.pipe(uglify())
 		.pipe(rename('jsab.min.js'))
-		.pipe(gulp.dest('./build'));
+		.pipe(gulp.dest('./dist'));
 }
 
 function compilePug() {
@@ -41,7 +41,7 @@ function watch() {
 }
 
 gulp.task('default', gulp.parallel('compile', watch, serve({
-	root: ['build', 'test'],
+	root: ['dist', 'test'],
 	port: 8080,
 	hostname: '0.0.0.0'
 	})

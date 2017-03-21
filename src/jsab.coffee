@@ -1,5 +1,5 @@
 ###
-jsAB v0.1.0 by woubuc | github.com/woubuc/jsAB
+jsAB by woubuc | github.com/woubuc/jsAB
 Inspired by easyAB by _srom | srom.github.io/easyAB
 ###
 
@@ -51,7 +51,7 @@ Inspired by easyAB by _srom | srom.github.io/easyAB
 
 			# Add class if set
 			if _version.className
-				$(this).addClass(_version.className) 
+				$(this).addClass(_version.className)
 
 			# Change text or html if set
 			if _version.text
@@ -92,7 +92,7 @@ Inspired by easyAB by _srom | srom.github.io/easyAB
 
 		# Get version from cookie if we're not in dev mode
 		version = _readCookie() unless devMode
-		
+
 		if not version
 			# Select a random version if no version is set
 			version = Math.floor(Math.random() * versions.length)
